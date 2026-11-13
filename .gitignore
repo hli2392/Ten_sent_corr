@@ -1,65 +1,68 @@
-# Operating systems 
+# Operating systems
 
-.DS_Store 
+.DS_Store
 
-Thumbs.db 
+Thumbs.db
 
-Desktop.ini 
+Desktop.ini
 
-  
 
-# Quarto generated output 
 
-.quarto/ 
+# Quarto generated output
 
-_site/ 
+.quarto/
 
-_book/ 
+_site/
 
-*.html 
+_book/
 
-*_files/ 
+*.html
 
-  
+*_files/
 
-# Python and Jupyter 
 
-__pycache__/ 
 
-*.py[cod] 
+# Python and Jupyter
 
-.ipynb_checkpoints/ 
+__pycache__/
 
-.venv/ 
+*.py[cod]
 
-venv/ 
+.ipynb_checkpoints/
 
-  
+.venv/
 
-# R 
+venv/
 
-.Rhistory 
 
-.RData 
 
-.Ruserdata 
+# R
 
-.Rproj.user/ 
+.Rhistory
 
-  
+.RData
 
-# Editors 
+.Ruserdata
 
-.vscode/ 
+.Rproj.user/
 
-.idea/ 
 
-*~ 
 
-*.swp 
+# Editors
 
-  
+.vscode/
 
-# Local credentials 
+.idea/
 
-.env 
+*~
+
+*.swp
+
+
+
+# Local credentials
+
+.env
+
+/.quarto/
+**/*.quarto_ipynb

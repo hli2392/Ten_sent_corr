@@ -72,6 +72,7 @@ Using the class simple Pearson correlation approach these data produce a correla
 coefficient of `{python}` f"{corr_val:.5f}"`, as such, 
 given this result we conclude that the relationship is `{python}` f"{narrative}"`.
 
+
 ```{python}
 #| label: fig-length-width-scatter
 #| fig-cap: "A scatterplot of petal length and width"
@@ -92,10 +93,16 @@ correlation bewteen a iris flower petal length and petal width.
 Now that this long-standing problem (of over 10 minutes) is resolved (thanks to the diligent efforts of UW-Madison's DSHB program) science has once again triumphed in establishing that there is a positive correlative relationship between iris petal width and iris petal length as a matter of empircally certain ground truth. The end (because we needed a second sentence).
 
 ```{python}
+#| label: fig-petal-lmplot
+#| fig-cap: "Linear regression plot of petal length and width"
+
 sns.lmplot(data = df, x = 'petal_length',y = 'petal_width')
 ```
 
 ```{python}
+#| label: fig-petal-jointplot
+#| fig-cap: "Joint plot of petal length and width"
+
 sns.jointplot(x =df['petal_length'], 
 y = df['petal_width'], kind = "hex",
 color = "#4CB391")
