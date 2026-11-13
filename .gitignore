@@ -100,3 +100,4 @@ venv/
 
 # Local credentials 
 .env 
+/Ten_sent_corr/
